@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>High School Habits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body style="background-color: gainsboro">
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html" style="background-color: slateblue; color:white;">
+                                <span class =  "nav-color"> Child Obesity</span></a>
+                </div>
+    
+                <div class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visualizations<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="time-series-obesity.html">Time Series</a></li>
+                                <li><a href="school.html">High School Habits</a></li>
+                                <li><a href="poverty.html">Poverty</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="food-insecurity.html"> Food Insecurity</a></li>
+                                                                   
+                    </div>
+            </div>      
+        </nav>
+
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+
+<div class="container">
+    <div class="row">
+     <div class="col-md-12">  
+         <div class="panel panel-default">
+            <div class="panel-body">
+            <h4 style="color:red; text-align:center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> United States, High School Youth Risk Behavior Survey, 2017</h4>
+            
+            <p>Source:</p><a href="https://www.cdc.gov/healthyschools/dataandstatistics.htm" >
+                Centers for Disease Control and Prevention</a>                             
+            </div>
+         </div>
+     </div>
+    </div>   
+  </div>
+
+
+<div id="charts">
+  <div id="chartdiv1"></div>
+  
+</div>
+<div id="filter">
+  <label style="color: #67b7dc;"><input type="checkbox" value="overweight/obesity" checked="checked" onclick="applyFilters()" class="filter-position" /> Overweight / Obese</label><br />
+  <label style="color: #fd5d00e3;"><input type="checkbox" value="soda" checked="checked" onclick="applyFilters()" class="filter-position" /> Soda Daily Drinking</label><br />
+  <label style="color: #84b761;"><input type="checkbox" value="tv" checked="checked" onclick="applyFilters()" class="filter-position" /> 3+ hours TV Daily</label><br />
+  <label style="color: #cc4748;"><input type="checkbox" value="fruit" checked="checked" onclick="applyFilters()" class="filter-position" /> No Fruit in the past week</label><br />
+  <label style="color: #f188ab;"><input type="checkbox" value="veggie" checked="checked" onclick="applyFilters()" class="filter-position" /> No Vegetable in the past week</label><br />
+  <label>
+    Region:
+    <input id="filter-name" type="text" onchange="applyFilters()" />
+  </label>
+</div>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Lato;
+  font-size: 14px;
+  margin: 0px;
+}
+
+#chartdiv1, #chartdiv2 {
+	width: 1250px;
+	height: 70%;
+  border: 1px solid #ddd;
+}
+
+#charts {
+  height: 100%;
+  float: left;
+}
+
+#filter {
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  float: left;
+}
+</style>
+
+<script>
+
+    var sourceData = [ {
+  "region": "National",
+  "percentage": 30.4,
+  "question": "overweight/obesity"
+}, {
+  "region": "Kansas",
+  "percentage": 28.4,
+  "question": "overweight/obesity"
+}, {
+  "region": "Utah",
+  "percentage": 22.8,
+  "question": "overweight/obesity"
+}, {
+  "region": "Tennessee",
+  "percentage": 38,
+  "question": "overweight/obesity"
+}, {
+  "region": "National",
+  "percentage": 18.7,
+  "question": "soda"
+}, {
+  "region": "Kansas",
+  "percentage": 15.6,
+  "question": "soda"
+}, {
+  "region": "Utah",
+  "percentage": 14.7,
+  "question": "soda"
+}, {
+  "region": "Tennessee",
+  "percentage": 26,
+  "question": "soda"
+}, {  
+  "region": "National",
+  "percentage": 20.7,
+  "question": "tv"
+}, {
+  "region": "Kansas",
+  "percentage": 14.5,
+  "question": "tv"
+}, {
+  "region": "Utah",
+  "percentage": 16.9,
+  "question": "tv"
+}, {
+  "region": "Tennessee",
+  "percentage": 23.7,
+  "question": "tv"
+}, {
+  "region": "National",
+  "percentage": 5.6,
+  "question": "fruit"
+}, {
+  "region": "Kansas",
+  "percentage": 5.1,
+  "question": "fruit"
+}, {
+  "region": "Utah",
+  "percentage": 5.6,
+  "question": "fruit"
+}, {
+  "region": "Tennessee",
+  "percentage": 8.5,
+  "question": "fruit"
+}, {
+  "region": "National",
+  "percentage": 7.2,
+  "question": "veggie"
+}, {
+  "region": "Kansas",
+  "percentage": 5.8,
+  "question": "veggie"
+}, {
+  "region": "Utah",
+  "percentage": 5,
+  "question": "veggie"
+}, {
+  "region": "Tennessee",
+  "percentage": 10,
+  "question": "veggie"
+} ];
+
+/**
+ * Set up colors for each of the position
+ */
+var positionColors = {
+  "overweight/obesity": "#67b7dc",
+  "soda": "#fd5d00e3",
+  "tv": "#84b761",
+  "fruit": "#cc4748",
+  "veggie": "#f188ab"
+};
+
+function lowercase( string ) {
+  return string.toLocaleLowerCase();
+}
+
+function contains( string, value ) {
+  return string.indexOf( value ) !== -1;
+}
+
+/**
+ * Function that checks which data is selected and generates a new data set
+ */
+function getFilteredData() {
+  var name = lowercase( document.getElementById( "filter-name" ).value );
+
+  var filters = {};
+
+  // get all filter checkboxes
+  var fields = document.getElementsByClassName( "filter-position" );
+  for ( var i = 0; i < fields.length; i++ ) {
+    if ( fields[ i ].checked ) {
+      filters[ fields[ i ].value ] = true;
+    }
+  }
+
+  // init new data set
+  var newData = [];
+
+  // cycle through source data and filter out required data points
+  for ( var i = 0; i < sourceData.length; i++ ) {
+    var dataPoint = sourceData[ i ];
+
+    if ( filters[ dataPoint.question ] &&
+         contains( lowercase( dataPoint.region ), name ) ) {
+      newData.push( {
+        "region": dataPoint.region,
+        "percentage": dataPoint.percentage,
+        "question": dataPoint.question,
+        "color": positionColors[ dataPoint.question ]
+      } );
+    }
+  }
+
+  // return new data set
+  return newData;
+
+}
+
+/**
+ * Function which applies current filters when invoked
+ */
+function applyFilters() {
+  var data = getFilteredData();
+
+  // update chart data
+  chart1.dataProvider = data;
+  chart1.validateData();
+}
+
+/**
+ * Create chart
+ */
+var chart1 = AmCharts.makeChart( "chartdiv1", {
+  "type": "serial",
+  "dataProvider": getFilteredData(),
+  "graphs": [ {
+    "fillAlphas": 0.9,
+    "lineAlpha": 0.2,
+    "lineColorField": "color",
+    "fillColorsField": "color",
+    "type": "column",
+    "valueField": "percentage",
+    "balloonText": "[[category]] ([[question]])<br><span style='font-size: 120%;'>[[value]]%</span>"
+  } ],
+  "categoryField": "region",
+  "valueAxes": [{
+    "title": "Habits of High Schoolers"
+  }]
+} );
+</script>
+
+</body>
+</html>

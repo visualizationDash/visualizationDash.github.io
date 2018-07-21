@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--<link rel="stylesheet" href="assets/style.css">-->
+    
+    <title>Childhood Obesity in the U.S.A.</title>
+</head>
+<body style="background-color: gainsboro">
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html" style="background-color: slateblue; color:white;">
+                                <span class =  "nav-color"> Child Obesity</span></a>
+                </div>
+    
+                <div class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visualizations<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="time-series-obesity.html">Time Series</a></li>
+                            <li><a href="school.html">High School Habits</a></li>
+                            <li><a href="poverty.html">Poverty</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="food-insecurity.html"> Food Insecurity</a></li>
+                                                               
+                </div>
+            </div>      
+        </nav>
+ 
+
+<!-- Styles -->
+<style>
+#p {
+    text-align: justify;
+    letter-spacing: 3px;
+        }
+#img {
+    float: left;
+}
+#chartwrapper {
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+  padding-top: 50%;
+}
+
+#chartdiv {
+  position: absolute;
+  width: 65%;
+  height: 85%;
+  padding-top: 2%;
+  padding-left: 0%;
+}
+#info {
+  padding: 10px;
+  background-color: #dedede;
+}
+#info p {
+  margin: 5px;
+}
+#chartdiv table {
+  border-collapse: collapse;
+}
+#chartdiv td, #chartdiv th {
+  border: 1px solid #ccc;
+  padding: 3px 6px;
+  text-align: left;
+}
+</style>
+<!--Creates the Overall Grid -->
+    
+<div class="container">
+  <div class="row">
+   <div class="col-md-12">  
+       <div class="panel panel-default">
+          <div class="panel-body">
+          <h2 style="color:red; text-align:center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> The state of childhood obesity</h2>
+          <hr>
+          <p style="color:black; text-align: justify; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Combined overweight 
+            and obesity rates for youth ages 10 to 17 ranged from 19.2 percent in Utah to 37.7 percent
+             in Tennessee, according to the most recent state-by-state data from the 2016 National 
+             Survey of Children’s Health (NSCH).<br><br>Nationwide, the NSCH 2016 survey estimates 31.2% of overweight or obese children (Body Mass Index of 85th percentile or above of CDC growth chart)</p>             
+          </div>
+       </div>
+   </div>
+      
+</div>
+</body>
+</html>
+     
+<!-- Resources -->
+<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/usaLow.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+<!-- Chart code -->
+<script>
+var descriptionTable = 
+    '<p style="font-size: 100%; font-weight: bold; margin-bottom: 15px;">Overweight/Obesity <br> in children 10-17</p>\
+    <table>\
+      <tr><th>[[title]]</th><th>Stats</th></tr>\
+      <tr><td>State Rank</td><td>[[customData]]th</td></tr>\
+      <tr><td>% All Youth</td><td>[[value]]%</td></tr>\
+    </table>';
+
+var map = AmCharts.makeChart( "chartdiv", {
+  "type": "map",
+  "theme": "dark",
+  "colorSteps": 15,
+
+  "dataProvider": {
+    "map": "usaLow",
+    "areas": [ {
+      "id": "US-AL",
+      "value": 35.5,
+      "customData": 6,
+    }, {
+      "id": "US-AK",
+      "value": 26.3,
+      "customData": 9,
+      
+    }, {
+      "id": "US-AZ",
+      "value": 26.9,
+      "customData": 40,
+      
+    }, {
+      "id": "US-AR",
+      "value": 33.9,
+      "customData": 9,
+      
+    }, {
+      "id": "US-CA",
+      "value": 31.2,
+      "customData": 24,
+      
+    }, {
+      "id": "US-CO",
+      "value": 27.2,
+      "customData": 36,
+      
+    }, {
+      "id": "US-CT",
+      "value": 30.2,
+      "callout": true,
+      "customData": 29,
+      
+    }, {
+      "id": "US-DE",
+      "value": 30.9,
+      "callout": true,
+      "customData": 25,
+      
+    }, {
+      "id": "US-DC",
+      "value": 33.8,
+      "callout": true,
+      "customData": 11,
+      
+    }, {
+      "id": "US-FL",
+      "value": 36.6,
+      "customData": 4,
+      
+    }, {
+      "id": "US-GA",
+      "value": 32.2,
+      "customData": 18,
+      
+    }, {
+      "id": "US-HI",
+      "value": 25.5,
+      "callout": true,
+      "customData": 44,
+     
+    }, {
+      "id": "US-ID",
+      "value": 26,
+      "customData": 43,
+     
+    }, {
+      "id": "US-IL",
+      "value": 27,
+      "customData": 39,
+     
+    }, {
+      "id": "US-IN",
+      "value": 33.9,
+      "customData": 10,
+      
+    }, {
+      "id": "US-IA",
+      "value": 29.9,
+      "customData": 30,
+      
+    }, {
+      "id": "US-KS",
+      "value": 30.9,
+      "customData": 26,
+      
+    }, {
+      "id": "US-KY",
+      "value": 33.5,
+      "customData": 14,
+      
+    }, {
+      "id": "US-LA",
+      "value": 34,
+      "customData": 8,
+     
+    }, {
+      "id": "US-ME",
+      "value": 28.2,
+      "customData": 34,
+      
+    }, {
+      "id": "US-MD",
+      "value": 33.6,
+      "callout": true,
+      "customData": 13,
+     
+    }, {
+      "id": "US-MA",
+      "value": 26.6,
+      "callout": true,
+      "customData": 41,
+     
+    }, {
+      "id": "US-MI",
+      "value": 32,
+      "customData": 19,
+     
+    }, {
+      "id": "US-MN",
+      "value": 27.7,
+      "customData": 35,
+     
+    }, {
+      "id": "US-MS",
+      "value": 37,
+      "customData": 3,
+     
+    }, {
+      "id": "US-MO",
+      "value": 29.4,
+      "customData": 32,
+     
+    }, {
+      "id": "US-MT",
+      "value": 23.2,
+      "customData": 48,
+      
+    }, {
+      "id": "US-NE",
+      "value": 29.2,
+      "customData": 33,
+      
+    }, {
+      "id": "US-NV",
+      "value": 30.5,
+      "customData": 28,
+      
+    }, {
+      "id": "US-NH",
+      "value": 23.8,
+      "customData": 47,
+      
+    }, {
+      "id": "US-NJ",
+      "value": 31.7,
+      "callout": true,
+      "customData": 21,
+      
+    }, {
+      "id": "US-NM",
+      "value": 24.9,
+      "customData": 46,
+    }, {
+      "id": "US-NY",
+      "value": 31.8,
+      "customData": 20
+    }, {
+      "id": "US-NC",
+      "value": 30.9,
+      "customData": 27,
+    }, {
+      "id": "US-ND",
+      "value": 37.1,
+      "customData": 2,
+    }, {
+      "id": "US-OH",
+      "value": 33.1,
+      "customData": 16
+    }, {
+      "id": "US-OK",
+      "value": 33.8,
+      "customData": 12
+    }, {
+      "id": "US-OR",
+      "value": 20.3,
+      "customData": 50,
+    }, {
+      "id": "US-PA",
+      "value": 31.7,
+      "customData": 22,
+    }, {
+      "id": "US-RI",
+      "value": 36.3,
+      "callout": true,
+      "customData": 5,
+    }, {
+      "id": "US-SC",
+      "value": 32.9,
+      "customData": 17,
+    }, {
+      "id": "US-SD",
+      "value": 31.4,
+      "customData": 23,
+    }, {
+      "id": "US-TN",
+      "value": 37.7,
+      "customData": 1,
+    }, {
+      "id": "US-TX",
+      "value": 33.3,
+      "customData": 15,
+    }, {
+      "id": "US-UT",
+      "value": 19.2,
+      "customData": 51,
+    }, {
+      "id": "US-VT",
+      "value": 22.2,
+      "customData": 49,
+    }, {
+      "id": "US-VA",
+      "value": 27.2,
+      "customData": 37,
+    }, {
+      "id": "US-WA",
+      "value": 25.5,
+      "customData": 45,
+    }, {
+      "id": "US-WV",
+      "value": 35.1,
+      "customData": 7,
+    }, {
+      "id": "US-WI",
+      "value": 29.5,
+      "customData": 31,
+    }, {
+      "id": "US-WY",
+      "value": 27.1,
+      "customData": 38
+    } ]
+  },
+
+  "areasSettings": {
+    "autoZoom": true,
+    "balloonText": descriptionTable,
+    
+    //"[[value]]% overweight/obese <br> children in [[title]]" 
+  },
+  
+  "listeners": [{
+    "event": "descriptionClosed",
+    "method": function(ev) {
+      ev.chart.selectObject();
+    }
+  }],
+////"balloonText":"[[value]]% overweight/obese <br> children in [[title]]"
+  "valueLegend": {
+    "right": 50,
+    "minValue": "lower obesity",
+    "maxValue": "higher obesity"
+  },
+
+  "export": {
+    "enabled": true
+  },
+
+  "imagesSettings": {
+    "labelColor": "white",
+    "labelPosition": "middle"
+  }
+
+} );
+
+map.addListener( "init", function() {
+
+// small areas
+var small = [ "US-MA", "US-RI", "US-CT", "US-NJ", "US-DE", "US-MD", "US-DC" ];
+
+// set up a longitude exceptions for certain areas
+var longitude = {
+  "US-CA": -130,
+  "US-FL": 120,
+  "US-TX": 1,
+  "US-LA": 40
+};
+
+var latitude = {
+  "US-AK": -83
+};
+
+// Positions of callouts
+var callouts = [
+  70, 60, 46, 26, 3, -20, -40, -56
+];
+
+var offset = 0;
+
+setTimeout( function() {
+  // iterate through areas and put a label over center of each
+  map.dataProvider.images = [];
+  for ( x in map.dataProvider.areas ) {
+    var area = map.dataProvider.areas[ x ];
+    area.groupId = area.id;
+    var image = new AmCharts.MapImage();
+    image.title = area.title;
+    image.linkToObject = area;
+    image.groupId = area.id;
+    
+    // callout or regular label
+    if ( area.callout ) {
+      image.latitude = callouts.shift();
+      image.longitude = 165;
+      image.label = area.value;
+      image.type = "rectangle";
+      image.color = "gray";
+      image.shiftX = offset;
+      image.width = 30;
+      image.height = 24;
+      
+      // create additional image
+      var image2 = new AmCharts.MapImage();
+      image2.latitude = image.latitude;
+      image2.longitude = image.longitude;
+      image2.label = area.id.split( '-' ).pop();
+      image2.labelColor = "darkblue";
+      image2.labelShiftX = 24;
+      image2.groupId = area.id;
+      map.dataProvider.images.push( image2 );
+    }
+    else {
+      image.latitude = latitude[ area.id ] || map.getAreaCenterLatitude( area );
+      image.longitude = longitude[ area.id ] || map.getAreaCenterLongitude( area );
+      image.label = area.id.split( '-' ).pop() + "\n" + area.value;
+    }
+    
+    map.dataProvider.images.push( image );
+  }
+  map.validateData();
+}, 100 )
+} );
+
+</script>
+
+<!-- HTML -->
+<div class="chartwrapper">
+  <div id="chartdiv" class="chartdiv"></div>
+  
+</div>
+

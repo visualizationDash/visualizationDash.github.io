@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--<link rel="stylesheet" href="assets/style.css">-->
+    
+    <title>Chilhood Obesity Analysis</title>
+</head>
+<body style="background-color: gainsboro">
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html" style="background-color: slateblue; color:white;">
+                                <span class =  "nav-color"> Child Obesity</span></a>
+                </div>
+    
+                <div class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visualizations<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="time-series-obesity.html">Time Series</a></li>
+                                <li><a href="school.html">High School Habits</a></li>
+                                <li><a href="poverty.html">Poverty</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="food-insecurity.html"> Food Insecurity</a></li>
+                                                                   
+                    </div>
+            </div>      
+        </nav>
+
+<!-- Styles -->
+<style>
+    #p {
+        text-align: justify;
+        letter-spacing: 3px;
+            }
+    #columnchart_material {
+      position: center;
+      padding-top: 2%;
+      padding-left: 12%;
+    }
+    
+    </style>
+<!-- Google Clustered Bar Chart-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Survey Period', 'All', 'Boys', 'Girls'],
+          ['1971-1974', 5.2, 5.3, 5.1],
+          ['1976-1980', 5.5, 5.4, 5.6],
+          ['1988-1994', 10, 10.2, 9.8],
+          ['1999-2000', 13.9, 14, 13.8],
+          ['2003-2004', 17.1, 18.2, 16],
+          ['2007-2008', 16.8, 17.7, 15.9],
+          ['2011-2012', 16.9, 16.7, 17.2],
+          ['2015-2016', 18.5, 19.1, 17.8],
+        ]);
+
+
+
+        var options = {
+          chart: {
+            title: 'Prevalence of obesity among youth aged 2–19 years',
+            subtitle: 'Source: National Health and Nutrition Examination Survey',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+        <div id="columnchart_material" style="width: 1400px; height: 500px;"></div>
+
+
+
+<!--
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="app.js"></script>
+       <div id="chart_div"></div>
+       -->
+    <br/>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">  
+            <p><b> Notes:</b> <br>
+                <ul>            
+                    <li>Results from the 2015–2016 National Health and Nutrition Examination Survey (NHANES), estimates <b>18.5% </b> of U.S. children and adolescents aged <b>2–
+        19 years are obese</b>.</li> 
+                    <li>Children are classified as obese if their BMI values are <b>at or above the 95th percentile</b> of the CDC growth charts.
+                    </li>
+                    <li>Body mass index (BMI) is expressed as weight in kilograms divided by height in meters squared (kg/m2).</li> 
+                    <hr>
+                    <p>Source:<a href="https://www.cdc.gov/nchs/products/databriefs/db288.htm" >
+                        National Center for Health Statistics</a></p>                             
+                </ul>  
+            </p>             
+        </div>
+    </div>
+</div>
+
+</body>
+</html>    
+
+   
+    

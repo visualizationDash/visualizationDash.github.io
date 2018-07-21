@@ -23,7 +23,7 @@ app = Flask(__name__)
 #################################################
 
 # The database URI
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/insecurity.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///insecurity.db"
 
 db = SQLAlchemy(app)
 

@@ -15,53 +15,143 @@
 
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
-
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- Leaflet-Choropleth JavaScript -->
-    <script type="text/javascript" src="choropleth.js"></script>
+    <script type="text/javascript" src="{{url_for('FoodEnv', filename='choropleth.js')}}"></script>
     <!-- Leaflet-Parallax JS -->
-    <script type="text/javascript" src="leaflet-parallax.js"></script>
+    <!-- <script type="text/javascript" src="leaflet-parallax.js"></script> -->
 
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('FoodEnv', filename='style.css') }}">
   
   </head>
   <body>
 
     <!-- The div where we will inject our map -->
- 
-  
   <!-- <div id="map"></div> -->
+
   <div id="container">
       <div class="row">
         <div class="col-md-12">  
-            <h3 class="text-center">Food Environment and Accessibility</h3>
-          <div id="map"></div>          
+            <div class="thumbnail">
+            <h3 class="text-center">Food Environments and Accessibility</h3>
+          <div id="map"></div>   
+          </div>       
         </div>
       </div>    
-     </div> <!--container -->
-    </div>
+     </div> 
+     </div>
+     <!-- Description of the layers -->
+     <div id="container">
+      <div class=row>
+        <div class="col-md-offset-2 col-md-4">
+          <div class="thumbnail"> <h5 class="text-center">MRFEI</h5> <hr>
+            The modified Retail Food Environment Index (mRFEI) is a
+            way of measuring the number of healthy and less healthy
+            food retailers in an area using a single number. Out of
+            the total number of food retailers in that area considered
+            either healthy or less healthy, the mRFEI represents the
+            percentage that are healthy. Therefore, lower scores indicate
+            that census tracts contain many convenience stores and/
+            or fast food restaurants compared to the number of healthy
+            food retailers. A zero score indicates that no healthy food
+            retailers (supermarkets, large grocery stores, produce stores
+            or supercenters) are located in the census tract.</div>
+            </div>
+          <div class="col-md-4">
+          <div class="thumbnail"><H5 class="text-center">How MRFEI Is Calculated</H5> <hr>
+             The mRFEI is calculated for each census tract using the
+            following formula:
+            Healthy food retailers include supermarkets, larger grocery
+            stores, supercenters, and produce stores within census
+            tracts or ½ mile from the tract boundary. </div>
+            </div>
+          <!-- <div class="col-md-4">
+          <div class="thumbnail"> </div> -->
+        </div>
+      </div>
+      </div>
    
   <div id="container">
     <div class=row>
     <div class="col-md-12">
-        <div class="thumbnail">
-         
+        <div class="thumbnail">         
           <div class="caption">
-            <h3 class="text-center">County Changes And Food Insecurity over time</h3>
+            <h3 class="text-center">Accessibility and Food Insecurity</h3> 
+          <div id="bar"></div>
+          <!-- <div id="plot"></div> -->
+            <script>                
+                // Plot the default route once the page loads
+                var default_url = "/access";                
+                Plotly.d3.json(default_url, function(error, response) {
+                    if (error) return console.warn(error);
+                    //adds the response into an array
+                    var data = [response];
+                    console.log(data)
+                    var layout = { margin: { t: 30, b:100 } ,
+                      title: "Kansas 2015 Data on Child Food Accessibility and Food Insecurity Over 5yrs",
+                      yaxis: { title: "(%) Percent" }}
+                    Plotly.plot("bar", data, layout)
+                })
+        
+                // Update the plot with new data, replot the chart with the new dropdown selected option
+                function updatePlotly(newdata) {
+                    var Bar = document.getElementById('bar');
+                    Plotly.restyle(Bar, 'x', [newdata.x])
+                    Plotly.restyle(Bar, 'y', [newdata.y])
+
+                }
+        
+                // Get new data whenever the dropdown selection changes the onchange functions drives this
+                // route is the value attribute of the option element
+                function getData(route) {
+                    console.log(route);
+                    Plotly.d3.json(`/${route}`, function(error, data) {
+                        console.log("newdata", data);
+                        updatePlotly(data);
+                    });
+                }
+            </script>
+        
+             <select id="selDataset" onchange="getData(this.value)">
+                <option value="access">Per County Accessibility</option>
+                <option value="insecurity">Food Insecurity</option>
+            </select>             
             
-            
-          </div>
+           </div>
         </div>
       </div>
-    </div> <!--second row -->
-    </div> <!-- second container-->
+    </div> <!--Second row -->
+     </div><!-- second container-->
+
+     <!-- Description of charts -->
+     <div id="container">
+        <div class=row>
+          <div class="col-md-offset-2 col-md-4">
+            <div class="thumbnail"> <h5 class="text-center">Food Accessibility</h5> <hr>
+              The chart shows the percentage of children with low access and proximity to
+              grocery stores per county in 2015 for each county in 
+              the state of Kansas
+  
+            </div>
+              </div>
+            <div class="col-md-4">
+            <div class="thumbnail"><H5 class="text-center">Childhood Food Insecurity</H5> <hr>
+              Over the last few years, the children facing food insecurity has decreased.</div>
+              </div>
+            <!-- <div class="col-md-4">
+            <div class="thumbnail"> </div> -->
+          </div>
+        </div>
+        </div>
      
    
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js" data-require="leaflet@0.7.3" data-semver="0.7.3"></script>
     
-    <script type="text/javascript" src="config.js"></script>
-    <script type="text/javascript" src="logic.js"></script>
+    <script type="text/javascript" src="{{url_for('FoodEnv', filename='config.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('FoodEnv', filename='logic.js')}}"></script>
 
   </body>
 </html>

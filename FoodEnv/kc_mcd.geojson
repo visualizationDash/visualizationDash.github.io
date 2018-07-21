@@ -1,0 +1,3113 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.526639,39.842535 ]
+    },
+    "properties": {
+    "storeNumber":13539,
+    "storeType":"FREESTANDING",
+    "address":"1001 S 1ST ST",
+    "city":"HIAWATHA",
+    "state":"KS",
+    "zip":"66434",
+    "phone":"(785)742-3377",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13539"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.686985,38.884981 ]
+    },
+    "properties": {
+    "storeNumber":13765,
+    "storeType":"FREESTANDING",
+    "address":"8750 W. 135TH ST.",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66223",
+    "phone":"(913)685-8595",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13765"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.679227,38.855103 ]
+    },
+    "properties": {
+    "storeNumber":10885,
+    "storeType":"FREESTANDING",
+    "address":"7926 W 151ST ST",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66223-2118",
+    "phone":"(913)897-5334",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10885"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.667075,38.929648 ]
+    },
+    "properties": {
+    "storeNumber":33168,
+    "storeType":"FREESTANDING",
+    "address":"10999 METCALF AVENUE",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66211",
+    "phone":"(913)491-0970",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.671914,38.957066 ]
+    },
+    "properties": {
+    "storeNumber":3589,
+    "storeType":"FREESTANDING",
+    "address":"9401 FO STER",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66212-2232",
+    "phone":"(913)649-8690",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3589"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.630009,38.957178 ]
+    },
+    "properties": {
+    "storeNumber":11978,
+    "storeType":"FREESTANDING",
+    "address":"3860 W 95TH",
+    "city":"LEAWOOD",
+    "state":"KS",
+    "zip":"66206",
+    "phone":"(913)642-1304",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11978"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.760599,38.854292 ]
+    },
+    "properties": {
+    "storeNumber":19725,
+    "storeType":"FREESTANDING",
+    "address":"15095 W 151ST ST",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66062",
+    "phone":"(913)829-5877",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/19725"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.639159,38.913476 ]
+    },
+    "properties": {
+    "storeNumber":13642,
+    "storeType":"FREESTANDING",
+    "address":"4600 W 119TH ST",
+    "city":"LEAWOOD",
+    "state":"KS",
+    "zip":"66209",
+    "phone":"(913)339-9303",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13642"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.670142,38.913816 ]
+    },
+    "properties": {
+    "storeNumber":11441,
+    "storeType":"FREESTANDING",
+    "address":"7124 W 119TH ST",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66213-1116",
+    "phone":"(913)338-3011",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11441"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.723115,38.88503 ]
+    },
+    "properties": {
+    "storeNumber":18179,
+    "storeType":"FREESTANDING",
+    "address":"11850 W 135TH ST",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66210",
+    "phone":"(913)685-9898",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/18179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.904437,39.285925 ]
+    },
+    "properties": {
+    "storeNumber":3743,
+    "storeType":"FREESTANDING",
+    "address":"3121 S 4TH ST TRFY",
+    "city":"LEAVENWORTH",
+    "state":"KS",
+    "zip":"66048-5005",
+    "phone":"(913)651-5577",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.824552,39.12807 ]
+    },
+    "properties": {
+    "storeNumber":26547,
+    "storeType":"FREESTANDING",
+    "address":"10555 PARALLEL PARKWAY",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66111",
+    "phone":"(913)299-9600",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/26547"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.754761,39.116944 ]
+    },
+    "properties": {
+    "storeNumber":1379,
+    "storeType":"FREESTANDING",
+    "address":"7530 STATE AVE",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66112",
+    "phone":"(913)334-1400",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/1379"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.123143,39.561128 ]
+    },
+    "properties": {
+    "storeNumber":6785,
+    "storeType":"FREESTANDING",
+    "address":"118 S 8TH",
+    "city":"ATCHISON",
+    "state":"KS",
+    "zip":"66002-2743",
+    "phone":"(913)367-0771",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6785"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.611402,39.050798 ]
+    },
+    "properties": {
+    "storeNumber":4056,
+    "storeType":"FREESTANDING",
+    "address":"4215 RAINBOW",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66103-3112",
+    "phone":"(913)677-3220",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4056"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.625401,39.087276 ]
+    },
+    "properties": {
+    "storeNumber":6894,
+    "storeType":"FREESTANDING",
+    "address":"605 SOUTH 7TH STREET",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66105-2001",
+    "phone":"(913)321-9225",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6894"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.691943,38.620248 ]
+    },
+    "properties": {
+    "storeNumber":18128,
+    "storeType":"FREESTANDING",
+    "address":"1409 W. AMITY",
+    "city":"LOUISBURG",
+    "state":"KS",
+    "zip":"66053",
+    "phone":"(913)837-3519",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/18128"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.672279,39.116307 ]
+    },
+    "properties": {
+    "storeNumber":5352,
+    "storeType":"FREESTANDING",
+    "address":"3725 STATE AVENUE",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66102-3830",
+    "phone":"(913)371-0606",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5352"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.630666,39.115802 ]
+    },
+    "properties": {
+    "storeNumber":11235,
+    "storeType":"FREESTANDING",
+    "address":"812 MINNESOTA",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66101-2609",
+    "phone":"(913)321-0542",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11235"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.675966,39.089112 ]
+    },
+    "properties": {
+    "storeNumber":4549,
+    "storeType":"FREESTANDING",
+    "address":"4101 KANSAS AVE",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66100",
+    "phone":"(913)281-1312",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4549"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.882395,39.08674 ]
+    },
+    "properties": {
+    "storeNumber":7252,
+    "storeType":"FREESTANDING",
+    "address":"606 S. 130TH",
+    "city":"BONNER SPRINGS",
+    "state":"KS",
+    "zip":"66012-9233",
+    "phone":"(913)422-7817",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7252"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.663232,39.02186 ]
+    },
+    "properties": {
+    "storeNumber":1385,
+    "storeType":"FREESTANDING",
+    "address":"6767 JOHNSON DR",
+    "city":"MISSION",
+    "state":"KS",
+    "zip":"66202-2620",
+    "phone":"(913)432-0020",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/1385"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.639317,39.036038 ]
+    },
+    "properties": {
+    "storeNumber":14341,
+    "storeType":"FREESTANDING",
+    "address":"5103 ROE AVE",
+    "city":"ROELAND PARK",
+    "state":"KS",
+    "zip":"66205",
+    "phone":"(913)831-7774",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/14341"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.680555,39.052108 ]
+    },
+    "properties": {
+    "storeNumber":21290,
+    "storeType":"FREESTANDING",
+    "address":"4427 SHAWNEE DR",
+    "city":"KANSAS CITY",
+    "state":"KS",
+    "zip":"66106",
+    "phone":"(913)262-5223",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/21290"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.668053,38.988783 ]
+    },
+    "properties": {
+    "storeNumber":775,
+    "storeType":"FREESTANDING",
+    "address":"7700 METCALF AVE",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66204-2930",
+    "phone":"(913)381-3133",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/775"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.721995,39.014115 ]
+    },
+    "properties": {
+    "storeNumber":10823,
+    "storeType":"FREESTANDING",
+    "address":"11801 W 63RD ST",
+    "city":"SHAWNEE",
+    "state":"KS",
+    "zip":"66203-3337",
+    "phone":"(913)631-1444",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10823"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.695695,38.99262 ]
+    },
+    "properties": {
+    "storeNumber":13535,
+    "storeType":"FREESTANDING",
+    "address":"9405 W 75TH ST",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66204",
+    "phone":"(913)381-1101",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13535"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.69776,38.970839 ]
+    },
+    "properties": {
+    "storeNumber":10543,
+    "storeType":"FREESTANDING",
+    "address":"9717 SANTA FE DR",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66212",
+    "phone":"(913)642-3738",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10543"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.713026,38.992551 ]
+    },
+    "properties": {
+    "storeNumber":5436,
+    "storeType":"FREESTANDING",
+    "address":"11005 W 75TH",
+    "city":"SHAWNEE",
+    "state":"KS",
+    "zip":"66214",
+    "phone":"(913)631-3488",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5436"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.701631,38.9426 ]
+    },
+    "properties": {
+    "storeNumber":15876,
+    "storeType":"FREESTANDING",
+    "address":"10460 W 103RD ST",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66204",
+    "phone":"(913)438-8880",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/15876"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.724216,38.929631 ]
+    },
+    "properties": {
+    "storeNumber":8013,
+    "storeType":"FREESTANDING",
+    "address":"11000 QUIVIRA RD",
+    "city":"OVERLAND PARK",
+    "state":"KS",
+    "zip":"66210-1290",
+    "phone":"(913)469-0474",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/8013"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.057013,39.841604 ]
+    },
+    "properties": {
+    "storeNumber":1360,
+    "storeType":"GAS STATION",
+    "address":"101 N ST",
+    "city":"SENECA",
+    "state":"KS",
+    "zip":"66538",
+    "phone":"(785)336-3190",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/1360"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.716446,39.129988 ]
+    },
+    "properties": {
+    "storeNumber":23070,
+    "storeType":"FREESTANDING",
+    "address":"3530 NW 46TH ST",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66608",
+    "phone":"(785)246-1555",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/23070"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.13681,39.019104 ]
+    },
+    "properties": {
+    "storeNumber":28696,
+    "storeType":"TOLLWAY",
+    "address":"I-70 MILEMARKER 209",
+    "city":"LAWRENCE",
+    "state":"KS",
+    "zip":"66046",
+    "phone":"(785)331-4120",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/28696"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.857264,38.570779 ]
+    },
+    "properties": {
+    "storeNumber":26490,
+    "storeType":"FREESTANDING",
+    "address":"1610 E PEORIA",
+    "city":"PAOLA",
+    "state":"KS",
+    "zip":"66071",
+    "phone":"(913)294-9395",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/26490"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.705898,37.813215 ]
+    },
+    "properties": {
+    "storeNumber":5008,
+    "storeType":"FREESTANDING",
+    "address":"2224 S MAIN",
+    "city":"FORT SCOTT",
+    "state":"KS",
+    "zip":"66701-3024",
+    "phone":"(620)223-6760",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5008"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.780067,38.884074 ]
+    },
+    "properties": {
+    "storeNumber":6372,
+    "storeType":"FREESTANDING",
+    "address":"2200 E SANTE FE",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66062",
+    "phone":"(913)764-8900",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6372"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.815065,38.857762 ]
+    },
+    "properties": {
+    "storeNumber":10938,
+    "storeType":"FREESTANDING",
+    "address":"1600 S. HAMILTON CIRCLE",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66061-5379",
+    "phone":"(913)768-7431",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10938"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.889786,38.813032 ]
+    },
+    "properties": {
+    "storeNumber":14430,
+    "storeType":"FREESTANDING",
+    "address":"26240 W 174TH ST",
+    "city":"GARDNER",
+    "state":"KS",
+    "zip":"66030",
+    "phone":"(913)856-8123",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/14430"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.806449,38.883968 ]
+    },
+    "properties": {
+    "storeNumber":1357,
+    "storeType":"FREESTANDING",
+    "address":"618 SANTA FE ST",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66061",
+    "phone":"(913)764-1500",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/1357"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.268654,38.580294 ]
+    },
+    "properties": {
+    "storeNumber":5928,
+    "storeType":"FREESTANDING",
+    "address":"2214 PRINCETON CIRCLE DR",
+    "city":"OTTAWA",
+    "state":"KS",
+    "zip":"66067-4025",
+    "phone":"(785)242-4451",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5928"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.835277,38.883212 ]
+    },
+    "properties": {
+    "storeNumber":19028,
+    "storeType":"FREESTANDING",
+    "address":"199 N PARKER ST",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66061-3139",
+    "phone":"(913)829-6185",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/19028"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.831173,37.167418 ]
+    },
+    "properties": {
+    "storeNumber":13416,
+    "storeType":"FREESTANDING",
+    "address":"420 SOUTHEAST AVE",
+    "city":"COLUMBUS",
+    "state":"KS",
+    "zip":"66725",
+    "phone":"(620)429-2700",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13416"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.258812,37.342827 ]
+    },
+    "properties": {
+    "storeNumber":31546,
+    "storeType":"FREESTANDING",
+    "address":"301 N. 16TH",
+    "city":"PARSONS",
+    "state":"KS",
+    "zip":"67357",
+    "phone":"(620)421-0244",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/31546"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.704263,37.437856 ]
+    },
+    "properties": {
+    "storeNumber":2906,
+    "storeType":"FREESTANDING",
+    "address":"3008 NORTH BROADWAY",
+    "city":"PITTSBURG",
+    "state":"KS",
+    "zip":"66762-2631",
+    "phone":"(620)231-0560",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/2906"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.40855,37.921794 ]
+    },
+    "properties": {
+    "storeNumber":6912,
+    "storeType":"FREESTANDING",
+    "address":"312 W MADISON",
+    "city":"IOLA",
+    "state":"KS",
+    "zip":"66749-3228",
+    "phone":"(620)365-7571",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6912"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.704479,37.396811 ]
+    },
+    "properties": {
+    "storeNumber":10715,
+    "storeType":"FREESTANDING",
+    "address":"1125 S BROADWAY",
+    "city":"PITTSBURG",
+    "state":"KS",
+    "zip":"66762-5801",
+    "phone":"(620)231-1925",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10715"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.736392,37.008079 ]
+    },
+    "properties": {
+    "storeNumber":7947,
+    "storeType":"FREESTANDING",
+    "address":"2800 MILITARY",
+    "city":"BAXTER SPRINGS",
+    "state":"KS",
+    "zip":"66713-2346",
+    "phone":"(620)856-3401",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7947"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.453803,37.6668 ]
+    },
+    "properties": {
+    "storeNumber":7768,
+    "storeType":"FREESTANDING",
+    "address":"101 W 14TH ST",
+    "city":"CHANUTE",
+    "state":"KS",
+    "zip":"66720",
+    "phone":"(620)431-2938",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7768"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.772166,38.909576 ]
+    },
+    "properties": {
+    "storeNumber":12133,
+    "storeType":"FREESTANDING",
+    "address":"12091 STRANG LINE RD",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66062-5256",
+    "phone":"(913)764-7390",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12133"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.245016,38.942411 ]
+    },
+    "properties": {
+    "storeNumber":1511,
+    "storeType":"FREESTANDING",
+    "address":"901 WEST 23RD STREET",
+    "city":"LAWRENCE",
+    "state":"KS",
+    "zip":"66046",
+    "phone":"(785)843-8522",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/1511"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.250362,38.97268 ]
+    },
+    "properties": {
+    "storeNumber":4164,
+    "storeType":"FREESTANDING",
+    "address":"1309 W 6TH ST",
+    "city":"LAWRENCE",
+    "state":"KS",
+    "zip":"66044-2220",
+    "phone":"(785)841-4132",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4164"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.793657,38.912265 ]
+    },
+    "properties": {
+    "storeNumber":29868,
+    "storeType":"FREESTANDING",
+    "address":"17921 W 119TH ST",
+    "city":"OLATHE",
+    "state":"KS",
+    "zip":"66061",
+    "phone":"(913)397-8900",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/29868"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.307647,38.970916 ]
+    },
+    "properties": {
+    "storeNumber":17040,
+    "storeType":"FREESTANDING",
+    "address":"4911 W 6TH ST",
+    "city":"LAWRENCE",
+    "state":"KS",
+    "zip":"66044",
+    "phone":"(785)842-6900",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/17040"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.772752,38.971499 ]
+    },
+    "properties": {
+    "storeNumber":11671,
+    "storeType":"FREESTANDING",
+    "address":"15920 W 87TH ST PKWY",
+    "city":"LENEXA",
+    "state":"KS",
+    "zip":"66219-9710",
+    "phone":"(913)599-4560",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11671"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.981982,38.961939 ]
+    },
+    "properties": {
+    "storeNumber":11897,
+    "storeType":"FREESTANDING",
+    "address":"34225 COMMERCE DR",
+    "city":"DESOTO",
+    "state":"KS",
+    "zip":"66018",
+    "phone":"(913)585-1166",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11897"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.844864,39.00833 ]
+    },
+    "properties": {
+    "storeNumber":24290,
+    "storeType":"FREESTANDING",
+    "address":"22315 W. 66TH STREET",
+    "city":"SHAWNEE",
+    "state":"KS",
+    "zip":"66226",
+    "phone":"(913)667-3504",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/24290"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.730992,38.955509 ]
+    },
+    "properties": {
+    "storeNumber":5107,
+    "storeType":"FREESTANDING",
+    "address":"9501 WESTGATE ST.",
+    "city":"LENEXA",
+    "state":"KS",
+    "zip":"66215-1507",
+    "phone":"(913)492-6407",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5107"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.74041,38.971483 ]
+    },
+    "properties": {
+    "storeNumber":7772,
+    "storeType":"FREESTANDING",
+    "address":"13330 W 87TH PKY",
+    "city":"LENEXA",
+    "state":"KS",
+    "zip":"66215-4536",
+    "phone":"(913)438-2711",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7772"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.261278,38.924983 ]
+    },
+    "properties": {
+    "storeNumber":13075,
+    "storeType":"FREESTANDING",
+    "address":"3241 IOWA",
+    "city":"LAWRENCE",
+    "state":"KS",
+    "zip":"66047",
+    "phone":"(785)841-5062",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13075"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.774601,39.00984 ]
+    },
+    "properties": {
+    "storeNumber":27044,
+    "storeType":"FREESTANDING",
+    "address":"16210 W 65TH ST",
+    "city":"SHAWNEE",
+    "state":"KS",
+    "zip":"66217",
+    "phone":"(913)248-1316",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/27044"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.195878,38.405344 ]
+    },
+    "properties": {
+    "storeNumber":3429,
+    "storeType":"FREESTANDING",
+    "address":"1202 W 6TH AVE",
+    "city":"EMPORIA",
+    "state":"KS",
+    "zip":"66801-2563",
+    "phone":"(620)342-9325",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3429"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.18514,38.470687 ]
+    },
+    "properties": {
+    "storeNumber":10627,
+    "storeType":"TOLLWAY",
+    "address":"KS TURNPIKE MILEPOST 132",
+    "city":"EMPORIA",
+    "state":"KS",
+    "zip":"66801",
+    "phone":"(620)343-8444",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10627"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.711284,37.223986 ]
+    },
+    "properties": {
+    "storeNumber":7540,
+    "storeType":"FREESTANDING",
+    "address":"401 W MYRTLE",
+    "city":"INDEPENDENCE",
+    "state":"KS",
+    "zip":"67301-3321",
+    "phone":"(620)331-7177",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7540"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.217657,38.423746 ]
+    },
+    "properties": {
+    "storeNumber":12980,
+    "storeType":"FREESTANDING",
+    "address":"2810 W 18TH",
+    "city":"EMPORIA",
+    "state":"KS",
+    "zip":"66801",
+    "phone":"(620)342-9444",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12980"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.676107,39.043899 ]
+    },
+    "properties": {
+    "storeNumber":995,
+    "storeType":"FREESTANDING",
+    "address":"1100 KANSAS AVE",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66612-1329",
+    "phone":"(785)232-4434",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.665814,39.085255 ]
+    },
+    "properties": {
+    "storeNumber":5596,
+    "storeType":"FREESTANDING",
+    "address":"2001 N TOPEKA",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66608-1828",
+    "phone":"(785)232-9081",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5596"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.688306,39.0113 ]
+    },
+    "properties": {
+    "storeNumber":317,
+    "storeType":"FREESTANDING",
+    "address":"3117 S TOPEKA AVE",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66611-2124",
+    "phone":"(785)266-4770",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/317"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.725125,39.045398 ]
+    },
+    "properties": {
+    "storeNumber":2018,
+    "storeType":"FREESTANDING",
+    "address":"1201 GAGE BLVD",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66604-1883",
+    "phone":"(785)273-0111",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/2018"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.715396,39.015291 ]
+    },
+    "properties": {
+    "storeNumber":15501,
+    "storeType":"DTHRU ONLY",
+    "address":"3072 SW 29TH",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66614",
+    "phone":"(785)271-1600",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/15501"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.761126,39.036936 ]
+    },
+    "properties": {
+    "storeNumber":11387,
+    "storeType":"FREESTANDING",
+    "address":"1640 S.W. WANAMAKER",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66604-3801",
+    "phone":"(785)272-1955",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11387"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.749222,39.028862 ]
+    },
+    "properties": {
+    "storeNumber":5468,
+    "storeType":"FREESTANDING",
+    "address":"5525 SW 21ST ST",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66604-3647",
+    "phone":"(785)273-1741",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5468"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.762738,39.013578 ]
+    },
+    "properties": {
+    "storeNumber":17628,
+    "storeType":"FREESTANDING",
+    "address":"29TH & WANAMAKER",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66614",
+    "phone":"(785)271-8363",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/17628"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.651006,39.015591 ]
+    },
+    "properties": {
+    "storeNumber":7244,
+    "storeType":"FREESTANDING",
+    "address":"2880 CALIFORNIA",
+    "city":"TOPEKA",
+    "state":"KS",
+    "zip":"66605-1713",
+    "phone":"(785)267-6181",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7244"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.834461,39.009117 ]
+    },
+    "properties": {
+    "storeNumber":12263,
+    "storeType":"FREESTANDING",
+    "address":"1127 SOUTH WASHINGTON",
+    "city":"JUNCTION CITY",
+    "state":"KS",
+    "zip":"66441",
+    "phone":"(785)238-5391",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12263"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.836013,39.028518 ]
+    },
+    "properties": {
+    "storeNumber":3601,
+    "storeType":"FREESTANDING",
+    "address":"416 WEST SIXTH STREET",
+    "city":"JUNCTION CITY",
+    "state":"KS",
+    "zip":"66441-3051",
+    "phone":"(785)238-4000",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3601"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.610494,39.190305 ]
+    },
+    "properties": {
+    "storeNumber":10134,
+    "storeType":"FREESTANDING",
+    "address":"1011 WESTLOOP PLACE",
+    "city":"MANHATTAN",
+    "state":"KS",
+    "zip":"66502-2835",
+    "phone":"(785)539-1672",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10134"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.304507,39.209663 ]
+    },
+    "properties": {
+    "storeNumber":12080,
+    "storeType":"FREESTANDING",
+    "address":"701 E 24 HWY",
+    "city":"WAMEGO",
+    "state":"KS",
+    "zip":"66545",
+    "phone":"(785)456-2500",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12080"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.213334,38.937691 ]
+    },
+    "properties": {
+    "storeNumber":4696,
+    "storeType":"FREESTANDING",
+    "address":"2103 N BUCKEYE",
+    "city":"ABILENE",
+    "state":"KS",
+    "zip":"67410-1507",
+    "phone":"(785)263-1722",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4696"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.560671,39.187501 ]
+    },
+    "properties": {
+    "storeNumber":2753,
+    "storeType":"FREESTANDING",
+    "address":"815 NORTH 3RD STREET",
+    "city":"MANHATTAN",
+    "state":"KS",
+    "zip":"66502-5703",
+    "phone":"(785)776-6751",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/2753"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.610954,38.878362 ]
+    },
+    "properties": {
+    "storeNumber":16139,
+    "storeType":"FREESTANDING",
+    "address":"125 E DIAMOND DRIVE",
+    "city":"SALINA",
+    "state":"KS",
+    "zip":"67401",
+    "phone":"(785)452-9195",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/16139"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.657858,39.56313 ]
+    },
+    "properties": {
+    "storeNumber":10980,
+    "storeType":"FREESTANDING",
+    "address":"1420 LINCOLN ST",
+    "city":"CONCORDIA",
+    "state":"KS",
+    "zip":"66901-4841",
+    "phone":"(785)243-1426",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10980"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.593588,38.826728 ]
+    },
+    "properties": {
+    "storeNumber":26546,
+    "storeType":"FREESTANDING",
+    "address":"1100 E CRAWFORD",
+    "city":"SALINA",
+    "state":"KS",
+    "zip":"67401",
+    "phone":"(785)825-2511",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/26546"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.629284,38.371385 ]
+    },
+    "properties": {
+    "storeNumber":3815,
+    "storeType":"FREESTANDING",
+    "address":"2101 EAST KANSAS AVENUE",
+    "city":"MCPHERSON",
+    "state":"KS",
+    "zip":"67460",
+    "phone":"(620)241-0522",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3815"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.624476,38.82677 ]
+    },
+    "properties": {
+    "storeNumber":24313,
+    "storeType":"FREESTANDING",
+    "address":"701 SOUTH BROADWAY",
+    "city":"SALINA",
+    "state":"KS",
+    "zip":"67401",
+    "phone":"(785)825-5301",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/24313"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.613405,38.802061 ]
+    },
+    "properties": {
+    "storeNumber":8051,
+    "storeType":"FREESTANDING",
+    "address":"2236 PLANET",
+    "city":"SALINA",
+    "state":"KS",
+    "zip":"67401-7350",
+    "phone":"(785)825-6775",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/8051"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.619478,37.033279 ]
+    },
+    "properties": {
+    "storeNumber":4581,
+    "storeType":"FREESTANDING",
+    "address":"302 W 11TH",
+    "city":"COFFEYVILLE",
+    "state":"KS",
+    "zip":"67337-5905",
+    "phone":"(620)251-3330",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4581"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.876941,37.817727 ]
+    },
+    "properties": {
+    "storeNumber":4701,
+    "storeType":"FREESTANDING",
+    "address":"2002 W. CENTRAL",
+    "city":"EL DORADO",
+    "state":"KS",
+    "zip":"67042-3201",
+    "phone":"(316)321-4910",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4701"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.981376,37.76622 ]
+    },
+    "properties": {
+    "storeNumber":26913,
+    "storeType":"TOLLWAY",
+    "address":"KANSAS TURNPIKE MILE MARKER 67",
+    "city":"EL DORADO",
+    "state":"KS",
+    "zip":"67042",
+    "phone":"(316)536-1101",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/26913"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.995585,37.227612 ]
+    },
+    "properties": {
+    "storeNumber":11880,
+    "storeType":"FREESTANDING",
+    "address":"2130 PIKE RD",
+    "city":"WINFIELD",
+    "state":"KS",
+    "zip":"67156-5448",
+    "phone":"(620)221-4036",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11880"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.984048,37.679731 ]
+    },
+    "properties": {
+    "storeNumber":14356,
+    "storeType":"FREESTANDING",
+    "address":"520 W 7TH",
+    "city":"AUGUSTA",
+    "state":"KS",
+    "zip":"67010",
+    "phone":"(316)775-5075",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/14356"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.136163,37.693558 ]
+    },
+    "properties": {
+    "storeNumber":18850,
+    "storeType":"FREESTANDING",
+    "address":"115 CENTRAL",
+    "city":"ANDOVER",
+    "state":"KS",
+    "zip":"67002",
+    "phone":"(316)733-0001",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/18850"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.199094,37.678597 ]
+    },
+    "properties": {
+    "storeNumber":27366,
+    "storeType":"FREESTANDING",
+    "address":"11989 E KELLOGG DR",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67207",
+    "phone":"(316)683-4852",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/27366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.243641,37.723535 ]
+    },
+    "properties": {
+    "storeNumber":11073,
+    "storeType":"FREESTANDING",
+    "address":"8100 EAST 21ST COURT",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67226",
+    "phone":"(316)685-6690",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/11073"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.245139,37.747533 ]
+    },
+    "properties": {
+    "storeNumber":12650,
+    "storeType":"FREESTANDING",
+    "address":"3527 N ROCK RD",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67226",
+    "phone":"(316)636-5222",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12650"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.22678,37.663553 ]
+    },
+    "properties": {
+    "storeNumber":18693,
+    "storeType":"FREESTANDING",
+    "address":"1645 S WEBB RD",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67207",
+    "phone":"(316)687-5494",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/18693"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.245036,37.665946 ]
+    },
+    "properties": {
+    "storeNumber":7477,
+    "storeType":"FREESTANDING",
+    "address":"1219 S ROCK RD",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67207-3319",
+    "phone":"(316)687-9664",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7477"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.345597,38.057985 ]
+    },
+    "properties": {
+    "storeNumber":7011,
+    "storeType":"FREESTANDING",
+    "address":"1321 MAIN",
+    "city":"NEWTON",
+    "state":"KS",
+    "zip":"67114-1915",
+    "phone":"(316)284-2891",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7011"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.329119,37.79227 ]
+    },
+    "properties": {
+    "storeNumber":10264,
+    "storeType":"FREESTANDING",
+    "address":"5900 AIR CAP DRIVE",
+    "city":"PARK CITY",
+    "state":"KS",
+    "zip":"67219-2105",
+    "phone":"(316)744-3519",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10264"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.335882,37.681863 ]
+    },
+    "properties": {
+    "storeNumber":6211,
+    "storeType":"FREESTANDING",
+    "address":"411 S. BROADWAY",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67202-3909",
+    "phone":"(316)267-2333",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.373451,37.782061 ]
+    },
+    "properties": {
+    "storeNumber":32704,
+    "storeType":"FREESTANDING",
+    "address":"2616 W 53RD ST",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67204",
+    "phone":"(316)832-9646",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/32704"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.299505,37.694987 ]
+    },
+    "properties": {
+    "storeNumber":18521,
+    "storeType":"FREESTANDING",
+    "address":"545 N HILLSIDE",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67214",
+    "phone":"(316)686-4575",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/18521"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.352443,37.684771 ]
+    },
+    "properties": {
+    "storeNumber":7636,
+    "storeType":"FREESTANDING",
+    "address":"122 N. SENECA",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67208",
+    "phone":"(316)267-9020",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7636"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.352176,37.651214 ]
+    },
+    "properties": {
+    "storeNumber":343,
+    "storeType":"FREESTANDING",
+    "address":"2418 S SENECA AVE",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67216",
+    "phone":"(316)262-4331",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/343"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.299363,37.715974 ]
+    },
+    "properties": {
+    "storeNumber":751,
+    "storeType":"FREESTANDING",
+    "address":"1811 N HILLSIDE",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67214-2317",
+    "phone":"(316)651-0332",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/751"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.428233,37.722629 ]
+    },
+    "properties": {
+    "storeNumber":12782,
+    "storeType":"FREESTANDING",
+    "address":"7311 W 21ST ST",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67206",
+    "phone":"(316)721-2088",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12782"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.298349,37.664004 ]
+    },
+    "properties": {
+    "storeNumber":166,
+    "storeType":"FREESTANDING",
+    "address":"1630 S HILLSIDE",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67211-4019",
+    "phone":"(316)686-9612",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/166"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.335238,37.702099 ]
+    },
+    "properties": {
+    "storeNumber":747,
+    "storeType":"FREESTANDING",
+    "address":"1050 N BROADWAY",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67214-2907",
+    "phone":"(316)267-8701",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/747"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.332838,37.649741 ]
+    },
+    "properties": {
+    "storeNumber":30137,
+    "storeType":"WAL*MART",
+    "address":"501 E PAWNEE S (WM #1099)",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67207",
+    "phone":"(316)264-5800",
+    "playplace":"N",
+    "driveThru":"N",
+    "ArchCard":"Y",
+    "freewifi":"N",
+    "storeurl":"http://www.mckansas.com/30137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.316479,37.63084 ]
+    },
+    "properties": {
+    "storeNumber":15232,
+    "storeType":"FREESTANDING",
+    "address":"3430 S. HYDRAULIC",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67216",
+    "phone":"(316)554-7801",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/15232"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.270952,37.694356 ]
+    },
+    "properties": {
+    "storeNumber":7309,
+    "storeType":"FREESTANDING",
+    "address":"5606 E CENTRAL",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67208-4201",
+    "phone":"(316)681-0160",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7309"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.363672,37.723672 ]
+    },
+    "properties": {
+    "storeNumber":12942,
+    "storeType":"FREESTANDING",
+    "address":"2261 N AMIDON",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67203",
+    "phone":"(316)838-4555",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12942"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.390201,37.70936 ]
+    },
+    "properties": {
+    "storeNumber":19333,
+    "storeType":"FREESTANDING",
+    "address":"1421 N WEST ST.",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67212",
+    "phone":"(316)943-8032",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/19333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.243575,37.549188 ]
+    },
+    "properties": {
+    "storeNumber":25420,
+    "storeType":"FREESTANDING",
+    "address":"610 NORTH ROCK ROAD",
+    "city":"DERBY",
+    "state":"KS",
+    "zip":"67037",
+    "phone":"(316)788-1779",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/25420"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.918314,38.086161 ]
+    },
+    "properties": {
+    "storeNumber":3667,
+    "storeType":"FREESTANDING",
+    "address":"603 E 30TH ST",
+    "city":"HUTCHINSON",
+    "state":"KS",
+    "zip":"67502-8432",
+    "phone":"(620)662-6462",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3667"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.901079,38.06459 ]
+    },
+    "properties": {
+    "storeNumber":10030,
+    "storeType":"FREESTANDING",
+    "address":"1407 E 11TH AVE",
+    "city":"HUTCHINSON",
+    "state":"KS",
+    "zip":"67501-2750",
+    "phone":"(620)662-4014",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10030"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.389001,37.676953 ]
+    },
+    "properties": {
+    "storeNumber":4298,
+    "storeType":"FREESTANDING",
+    "address":"456 S WEST",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67213-2108",
+    "phone":"(316)945-8411",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4298"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.462083,37.722052 ]
+    },
+    "properties": {
+    "storeNumber":20840,
+    "storeType":"FREESTANDING",
+    "address":"10321 W 21ST",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67212",
+    "phone":"(316)729-7300",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/20840"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.85357,38.865429 ]
+    },
+    "properties": {
+    "storeNumber":6877,
+    "storeType":"FREESTANDING",
+    "address":"1435 S. FOSSIL",
+    "city":"RUSSELL",
+    "state":"KS",
+    "zip":"67665-3612",
+    "phone":"(785)483-6554",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6877"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.891136,39.83897 ]
+    },
+    "properties": {
+    "storeNumber":13452,
+    "storeType":"FREESTANDING",
+    "address":"211 WEST HOLME",
+    "city":"NORTON",
+    "state":"KS",
+    "zip":"67654",
+    "phone":"(785)877-2773",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13452"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.31828,38.870004 ]
+    },
+    "properties": {
+    "storeNumber":12648,
+    "storeType":"FREESTANDING",
+    "address":"1201 VINE",
+    "city":"HAYS",
+    "state":"KS",
+    "zip":"67601-3452",
+    "phone":"(785)625-1712",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12648"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.889512,39.016508 ]
+    },
+    "properties": {
+    "storeNumber":18339,
+    "storeType":"GAS STATION",
+    "address":"HWY 183 & I 70",
+    "city":"WAKEENEY",
+    "state":"KS",
+    "zip":"67672",
+    "phone":"(785)743-2911",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/18339"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.784129,38.361349 ]
+    },
+    "properties": {
+    "storeNumber":2939,
+    "storeType":"FREESTANDING",
+    "address":"3307 10TH ST",
+    "city":"GREAT BEND",
+    "state":"KS",
+    "zip":"67530-3534",
+    "phone":"(620)792-1406",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/2939"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.316691,38.895544 ]
+    },
+    "properties": {
+    "storeNumber":4938,
+    "storeType":"FREESTANDING",
+    "address":"3406 VINE ST.",
+    "city":"HAYS",
+    "state":"KS",
+    "zip":"67601-1939",
+    "phone":"(785)628-6115",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4938"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.351501,37.566768 ]
+    },
+    "properties": {
+    "storeNumber":35180,
+    "storeType":"SHARED BLDNG",
+    "address":"200 N. MAIN STREET",
+    "city":" SUITE F",
+    "state":"HAYSVILLE",
+    "zip":"KS",
+    "phone":"67060",
+    "playplace":"(316)522-6266",
+    "driveThru":"N",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"Y"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.572344,37.663631 ]
+    },
+    "properties": {
+    "storeNumber":27026,
+    "storeType":"FREESTANDING",
+    "address":"20019 W KELLOGG DR",
+    "city":"GODDARD",
+    "state":"KS",
+    "zip":"67052",
+    "phone":"(316)794-3434",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/27026"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.389642,37.650044 ]
+    },
+    "properties": {
+    "storeNumber":19056,
+    "storeType":"FREESTANDING",
+    "address":"2437 SW ST",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67217",
+    "phone":"(316)941-4750",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/19056"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.4439,37.691512 ]
+    },
+    "properties": {
+    "storeNumber":5198,
+    "storeType":"FREESTANDING",
+    "address":"506 NORTH TYLER ROAD",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67212-3633",
+    "phone":"(316)722-5371",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/5198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.415982,37.673364 ]
+    },
+    "properties": {
+    "storeNumber":7032,
+    "storeType":"FREESTANDING",
+    "address":"6350 W KELLOGG",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67209-2330",
+    "phone":"(316)942-2791",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/7032"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.333487,37.60753 ]
+    },
+    "properties": {
+    "storeNumber":4216,
+    "storeType":"FREESTANDING",
+    "address":"4810 SOUTH BROADWAY",
+    "city":"WICHITA",
+    "state":"KS",
+    "zip":"67216-3713",
+    "phone":"(316)522-0588",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/4216"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.272175,37.552134 ]
+    },
+    "properties": {
+    "storeNumber":6694,
+    "storeType":"FREESTANDING",
+    "address":"917 N. BALTIMORE",
+    "city":"DERBY",
+    "state":"KS",
+    "zip":"67037-1818",
+    "phone":"(316)788-3344",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6694"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.095816,37.648218 ]
+    },
+    "properties": {
+    "storeNumber":16654,
+    "storeType":"FREESTANDING",
+    "address":"1123 HWY 54",
+    "city":"KINGMAN",
+    "state":"KS",
+    "zip":"67068",
+    "phone":"(620)532-1255",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/16654"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.322312,37.367372 ]
+    },
+    "properties": {
+    "storeNumber":28697,
+    "storeType":"TOLLWAY",
+    "address":"MILEMARKER 25. 7 KANSAS TOLLWAY",
+    "city":"BELLE PLAINE",
+    "state":"KS",
+    "zip":"67013",
+    "phone":"(620)399-8311",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/28697"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.715624,37.645099 ]
+    },
+    "properties": {
+    "storeNumber":6307,
+    "storeType":"FREESTANDING",
+    "address":"1805 E 1ST ST",
+    "city":"PRATT",
+    "state":"KS",
+    "zip":"67124-2075",
+    "phone":"(620)672-1915",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6307"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.039668,37.152471 ]
+    },
+    "properties": {
+    "storeNumber":13871,
+    "storeType":"FREESTANDING",
+    "address":"801 W MAIN",
+    "city":"ANTHONY",
+    "state":"KS",
+    "zip":"67003",
+    "phone":"(620)842-5069",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13871"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.375631,37.27472 ]
+    },
+    "properties": {
+    "storeNumber":32816,
+    "storeType":"FREESTANDING",
+    "address":"1820 E 16TH ST.",
+    "city":"WELLINGTON",
+    "state":"KS",
+    "zip":"67152",
+    "phone":"(620)399-8492",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/32816"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.03967,37.085057 ]
+    },
+    "properties": {
+    "storeNumber":3489,
+    "storeType":"FREESTANDING",
+    "address":"2022 N SUMMIT ST",
+    "city":"ARKANSAS CITY",
+    "state":"KS",
+    "zip":"67005-3851",
+    "phone":"(620)442-3122",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3489"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.930707,38.057581 ]
+    },
+    "properties": {
+    "storeNumber":410,
+    "storeType":"FREESTANDING",
+    "address":"20 E 4TH ST",
+    "city":"HUTCHINSON",
+    "state":"KS",
+    "zip":"67501-6933",
+    "phone":"(620)665-5642",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/410"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.939241,38.014951 ]
+    },
+    "properties": {
+    "storeNumber":19012,
+    "storeType":"GAS STATION",
+    "address":"1006 S MAIN ST",
+    "city":"SOUTH HUTCHINSON",
+    "state":"KS",
+    "zip":"67505",
+    "phone":"(620)664-5848",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/19012"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.023973,37.752869 ]
+    },
+    "properties": {
+    "storeNumber":3764,
+    "storeType":"FREESTANDING",
+    "address":"703 WEST WYATT EARP BLVD.",
+    "city":"DODGE CITY",
+    "state":"KS",
+    "zip":"67801-4249",
+    "phone":"(620)227-7008",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3764"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.921463,37.031928 ]
+    },
+    "properties": {
+    "storeNumber":3686,
+    "storeType":"FREESTANDING",
+    "address":"24 E PANCAKE",
+    "city":"LIBERAL",
+    "state":"KS",
+    "zip":"67901-4114",
+    "phone":"(620)624-8741",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3686"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.853168,37.975444 ]
+    },
+    "properties": {
+    "storeNumber":3765,
+    "storeType":"FREESTANDING",
+    "address":"1613 KANSAS PLAZA",
+    "city":"GARDEN CITY",
+    "state":"KS",
+    "zip":"67846-6234",
+    "phone":"(620)275-1922",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/3765"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.922922,37.058181 ]
+    },
+    "properties": {
+    "storeNumber":28745,
+    "storeType":"FREESTANDING",
+    "address":"1800 N KANSAS",
+    "city":"LIBERAL",
+    "state":"KS",
+    "zip":"67901",
+    "phone":"(620)626-7556",
+    "playplace":"Y",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/28745"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.882998,37.975437 ]
+    },
+    "properties": {
+    "storeNumber":10542,
+    "storeType":"FREESTANDING",
+    "address":"1106 TAYLOR",
+    "city":"GARDEN CITY",
+    "state":"KS",
+    "zip":"67846-4017",
+    "phone":"(620)276-3311",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10542"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.337109,37.170311 ]
+    },
+    "properties": {
+    "storeNumber":13872,
+    "storeType":"FREESTANDING",
+    "address":"612 EAST 11TH ST",
+    "city":"HUGOTON",
+    "state":"KS",
+    "zip":"67951",
+    "phone":"(620)544-4233",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/13872"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.358468,37.576103 ]
+    },
+    "properties": {
+    "storeNumber":12722,
+    "storeType":"FREESTANDING",
+    "address":"105 WEST OKLAHOMA",
+    "city":"ULYSSES",
+    "state":"KS",
+    "zip":"67880",
+    "phone":"(620)356-3507",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/12722"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.056343,39.366543 ]
+    },
+    "properties": {
+    "storeNumber":6213,
+    "storeType":"FREESTANDING",
+    "address":"2000 SOUTH RANGE",
+    "city":"COLBY",
+    "state":"KS",
+    "zip":"67701",
+    "phone":"(785)462-8159",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/6213"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.72539,39.331693 ]
+    },
+    "properties": {
+    "storeNumber":10250,
+    "storeType":"FREESTANDING",
+    "address":"2325 ENTERPRISE RD",
+    "city":"GOODLAND",
+    "state":"KS",
+    "zip":"67735-9721",
+    "phone":"(785)899-7371",
+    "playplace":"N",
+    "driveThru":"Y",
+    "ArchCard":"Y",
+    "freewifi":"Y",
+    "storeurl":"http://www.mckansas.com/10250"
+    }
+  }
+]
+}

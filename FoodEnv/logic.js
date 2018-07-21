@@ -30,7 +30,7 @@ function mrfei_color(mrfei){
 var geoJsonCensus, geoJsonMrfei, geoJsonMcD,geoJsonCounty;
 
 // 1)update base map with county layout
-var censustract_path ='static/data/ks_censustracks.geojson';
+var censustract_path ='ks_censustracks.geojson';
 Plotly.d3.json(censustract_path, function(data) {
   // console.log(data)
   geoJsonCensus = L.geoJson(data, {
@@ -70,7 +70,7 @@ Plotly.d3.json(censustract_path, function(data) {
 });
 
 // 2) Grab mrfei data with d3... and add color depending on mrfei value
-var mrfei_path ='static/data/mrfei_ks.geojson';
+var mrfei_path ='mrfei_ks.geojson';
 Plotly.d3.json(mrfei_path, function(data) { 
   geoJsonMrfei = L.geoJson(data, {   
      pointToLayer: function(feature, location){
@@ -119,7 +119,7 @@ controlLayers.addOverlay(geoJsonMrfei, 'MRFREI')
 
 
 // 3) mcdonald layer 
-var mcdonald_layer = 'static/data/kc_mcd.geojson';
+var mcdonald_layer = 'kc_mcd.geojson';
 Plotly.d3.json(mcdonald_layer, function(data) {  
  geoJsonMcD = L.geoJson(data, {   
     pointToLayer: function(feature, location){
@@ -141,7 +141,7 @@ Plotly.d3.json(mcdonald_layer, function(data) {
 });
 
 // 4) county layer figure if you can filter KS counties
-var county_layer = 'static/data/cb_2017_us_county_20m.geojson';
+var county_layer = 'cb_2017_us_county_20m.geojson';
  Plotly.d3.json(county_layer, function(data) {     
     geoJsonCounty = L.geoJson(data, {
       //return KS only

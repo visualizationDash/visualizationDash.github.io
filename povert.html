@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Childhood Obesity in the United States</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>     
+    </head>
+
+    <body style="background-color: gainsboro">
+        
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                            <a class="navbar-brand logo" href="index.html" style="background-color: slateblue; color:white;">
+                                    <span class =  "nav-color"> Child Obesity</span></a>
+                    </div>
+        
+                    <div class="nav navbar-nav navbar-right">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visualizations<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="time-series-obesity.html">Time Series</a></li>
+                                    <li><a href="school.html">High School Habits</a></li>
+                                    <li><a href="poverty.html">Poverty</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="food-insecurity.html"> Food Insecurity</a></li>
+                                                                       
+                        </div>
+                </div>      
+            </nav>
+
+        <div class="chart-container" style="position: relative; height: 1000px; width: 1250px">
+            <canvas id="line-chart"></canvas>
+            <br>
+            <hr style="height:5px;border:none;color:white;background-color:white;" />
+            <br>
+            <canvas id="scatter-chart"></canvas>
+        </div>
+        <script>
+
+
+        </script>
+        <script>
+
+
+            d3.csv("./Socioeconomic.csv", function(error, incomeData) {
+    if (error) return console.warn(error);
+
+    //scaling radius
+    var range = [0, 100] // range in pixels for bubble radius, min/max
+    var domain = [0, 60]
+    /**
+      * scaleRadius - scale for bubble chart because chart js doesn't calculate radius, must set in pixels...
+      *
+      * @param {Object}
+      * @returns {Number} scaled radius value r to correspond to child poverty rate
+      */
+    function scaleRadius(value) {
+       var scaleLog = d3.scaleLog()
+           .domain(domain)
+           .range(range)
+      return scaleLog(value);
+    }
+
+    var data = incomeData.map(function(income){
+      return {
+        x : parseFloat(income.MEDHHINC15),
+        r : parseInt(income.CHILDPOVRATE15),
+        label : income.State
+      }
+    });
+    console.log(data);
+
+
+    d3.csv("./childhood_obesity_by_state.csv", function(error, obesityData) {
+      if (error) return console.warn(error);
+
+
+      obesityData.forEach(function(item){
+        item.x = 0;
+        item.r = 0;
+        item.y = parseFloat(item["Overweight_or_obese"]);
+        item.length = 0;
+        data.forEach(function(value){
+          if(item.Abbr === value.label){
+            if(value.x)
+              item.x += value.x;
+            if(value.r)
+              item.r += value.r;
+            item.length += 1;
+
+          }
+        });
+      });
+
+      obesityData.forEach(function(item){
+        item.x = item.x/item.length;
+        item.r = parseInt(item.r/item.length);
+      });
+      //adding overwieght as y-axis      
+      console.log(obesityData);
+
+
+      var scatterChart = new Chart(document.getElementById("scatter-chart"), {
+        type: 'scatter',
+        type: 'bubble',
+        data: {
+          datasets: [{
+            label: 'Childhood Obesity in the United States',
+            backgroundColor: 'rgba(50,229,173,1',
+            pointBackgroundColor: 'rgba(50,229,173,0.8',
+            pointBorderColor: 'black',
+            data: obesityData
+          }]
+        },
+        options: {
+            scales: {
+                xAxes: [{
+                    type: 'linear',
+                    position: 'bottom',
+                    offset: true,
+                    gridLines: false,
+                    scaleLabel: {
+                      display: true,
+                      labelString: 'Median Household Income'
+                    }
+                }],
+                yAxes: [{
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Childhood Obesity Rate'
+                  }
+                }]
+            },
+            tooltips: {
+              callbacks: {
+                label: (tooltipItem) => {
+                  return obesityData[tooltipItem.index].State
+                }
+              }
+            }
+        }
+    });
+  });
+
+});
+const ctx = document.getElementById('line-chart');
+new Chart (ctx, {
+    type: 'line',
+    data: {
+        labels: [1971, 1976, 1988, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013],
+        datasets: [{
+            data: [5, 5, 7.2, 10.3, 10.6, 13.9, 10.7, 10.1, 12.1, 8.4, 9.4],
+            label: "Age 2-5 year old",
+            borderColor: "#3e95cd",
+            fill: false
+        }, {
+            data: [4, 6.5, 11.3, 15.1, 16.2, 18.8, 15.1, 19.6, 18, 17.7, 17.4],
+            label: "Age 6-11 year old",
+            borderColor: "#8e5ea2",
+            fill: false
+        }, {
+            data: [6.1, 5, 10.5, 14.8, 16.7, 17.4, 17.8, 18.1, 18.4, 20.5, 20.6],
+            label: "Age 12-19 year olds",
+            borderColor: "#3cba9f",
+            fill: false
+        }
+        ]
+    },
+    options: {
+        title: {
+            display: true,
+            text: "Percent of Obese Children Over Time in the US"
+        },
+        scales: {
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Percent Obese'
+                }
+            }],
+            xAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Year'
+                }
+            }]
+        }
+    }
+});
+        </script>
+    </body>
+</html>
